@@ -1,0 +1,24 @@
+uuid: ce0b122d-820c-4f39-83fb-f856150b8ccc
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.petite_liste_de_villes
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__petite_liste_de_villes_block_1
+theme: bartik
+region: sidebar_first
+weight: null
+provider: null
+plugin: 'views_block:petite_liste_de_villes-block_1'
+settings:
+  id: 'views_block:petite_liste_de_villes-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

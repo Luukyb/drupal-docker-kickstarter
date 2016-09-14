@@ -1,0 +1,45 @@
+uuid: 9a631f94-755a-42af-bdc6-b8c4e1b675fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ville.field_map
+    - field.field.node.ville.field_ville_region
+    - node.type.ville
+  module:
+    - simple_gmap
+    - user
+id: node.ville.default
+targetEntityType: node
+bundle: ville
+mode: default
+content:
+  field_map:
+    weight: 102
+    label: above
+    settings:
+      include_map: '1'
+      iframe_width: '700'
+      iframe_height: '700'
+      link_text: 'View larger map'
+      zoom_level: '14'
+      information_bubble: '1'
+      map_type: m
+      langcode: en
+      include_static_map: 0
+      include_link: 0
+      include_text: 0
+    third_party_settings: {  }
+    type: simple_gmap
+  field_ville_region:
+    weight: 101
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

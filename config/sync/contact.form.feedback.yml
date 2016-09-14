@@ -1,0 +1,12 @@
+uuid: 0ad6d653-0766-4ccd-a2df-f0b6bfb43bfa
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - luc@webizat.com
+reply: ''
+weight: 0

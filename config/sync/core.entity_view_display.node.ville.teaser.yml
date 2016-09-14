@@ -1,0 +1,21 @@
+uuid: e5ecd0b8-53c3-4c99-a6e8-b54df3d0549c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ville.field_map
+    - field.field.node.ville.field_ville_region
+    - node.type.ville
+  module:
+    - user
+id: node.ville.teaser
+targetEntityType: node
+bundle: ville
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_map: true
+  field_ville_region: true

@@ -1,0 +1,18 @@
+uuid: 787284af-af86-436d-808a-5a38f9f0b986
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ville
+id: node.ville.title
+field_name: title
+entity_type: node
+bundle: ville
+label: Nom
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

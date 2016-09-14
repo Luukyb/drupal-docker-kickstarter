@@ -1,0 +1,14 @@
+uuid: 3f86e156-0209-4553-afc6-4b5fc45712e1
+name: 'IMIE demo'
+mail: luc@webizat.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

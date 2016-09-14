@@ -285,7 +285,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = '-2n3Ca1Vc57X43NsLDT7abN_WMVwGrB5tlwjc_txTPceKOBb6T7Yftx2g_MfCekWXEkLwOXKXg';
 
 /**
  * Deployment identifier.
@@ -701,6 +701,9 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
  * example.org, with all subdomains included.
  */
 
+$settings['install_profile'] = 'standard';
+$config_directories['sync'] = '../config/sync';
+
 /**
  * Load local development override configuration, if available.
  *
@@ -711,6 +714,6 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
  *
  * Keep this code block at the end of this file to take full effect.
  */
-# if (file_exists(__DIR__ . '/settings.local.php')) {
-#   include __DIR__ . '/settings.local.php';
-# }
+if (file_exists(__DIR__ . '/settings.local.php')) {
+  include __DIR__ . '/settings.local.php';
+}

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b1a3b6c929f378ecb278f1edefdd1258",
+    "content-hash": "30e442eb8cf14fbb270334565ad183b9",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -242,12 +242,12 @@
             "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/consolidation-org/annotated-command.git",
+                "url": "https://github.com/consolidation/annotated-command.git",
                 "reference": "ed279df30b9386fd8e523003dc679421a87c52e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation-org/annotated-command/zipball/ed279df30b9386fd8e523003dc679421a87c52e0",
+                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/ed279df30b9386fd8e523003dc679421a87c52e0",
                 "reference": "ed279df30b9386fd8e523003dc679421a87c52e0",
                 "shasum": ""
             },
@@ -293,12 +293,12 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/consolidation-org/output-formatters.git",
+                "url": "https://github.com/consolidation/output-formatters.git",
                 "reference": "6428d8fb30c9ed3b96314580808b3e4415b46dd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation-org/output-formatters/zipball/6428d8fb30c9ed3b96314580808b3e4415b46dd9",
+                "url": "https://api.github.com/repos/consolidation/output-formatters/zipball/6428d8fb30c9ed3b96314580808b3e4415b46dd9",
                 "reference": "6428d8fb30c9ed3b96314580808b3e4415b46dd9",
                 "shasum": ""
             },
@@ -1161,6 +1161,39 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "time": "2016-09-07 19:16:42"
+        },
+        {
+            "name": "drupal/simple_gmap",
+            "version": "8.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/simple_gmap",
+                "reference": "55ff3e75bfc2d91225aa56d8a9b9ff9fc47eaa72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/simple_gmap-8.x-1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/field": "8.*",
+                "drupal/text": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Provides a Google Maps link/map formatter for simple Text fields.",
+            "homepage": "https://www.drupal.org/project/simple_gmap",
+            "time": "2015-10-24 12:18:47"
         },
         {
             "name": "drush/drush",
